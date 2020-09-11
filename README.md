@@ -9,5 +9,5 @@ A Dockerfile for beancount-fava
 
 ```
 # assume you have example.bean in the current directory
-docker run -v $PWD:/bean -e BEANCOUNT_FILE=/bean/example.bean yegle/fava
+docker run -v $PWD:/bean -e BEANCOUNT_FILE=/bean/example.bean d0zingcat/docker-fava
 ```
